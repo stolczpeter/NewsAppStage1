@@ -123,9 +123,15 @@ public final class Utils {
 
                 String section = currentNews.getString("sectionName");
 
-                String longdate = currentNews.getString("webPublicationDate");
+                String date = "";
+                try {
 
-                String date = longdate.substring(0, Math.min(longdate.length(), 10));
+                    String longdate = currentNews.getString("webPublicationDate");
+                    date = longdate.substring(0, Math.min(longdate.length(), 10));
+                } catch (Exception e) {
+
+                    date = "No author";
+                }
 
                 String url = currentNews.getString("webUrl");
 
