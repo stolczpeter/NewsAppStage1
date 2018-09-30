@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">The Guardian AI News</string>
+    <string name="near_the">Near the</string>
+    <string name="no_news">No news found on artificial intelligence.</string>
+    <string name="no_internet_connection">No internet connection.</string>
+    <string name="no_author">Uknown author.</string>
+    <string name="weburl">webUrl.</string>
+</resources>
